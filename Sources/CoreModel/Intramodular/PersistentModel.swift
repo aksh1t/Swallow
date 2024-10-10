@@ -4,4 +4,4 @@
 
 import Swallow
 
-public protocols PersistentModel {}
+public protocol PersistentModel {}
