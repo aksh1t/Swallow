@@ -46,7 +46,7 @@ var package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-collections", from: "1.1.0"),
-        .package(url: "https://github.com/apple/swift-syntax.git", from: "600.0.0-prerelease-2024-08-14"),
+        .package(url: "https://github.com/apple/swift-syntax.git", exact: "600.0.0-prerelease-2024-08-14"),
     ],
     targets: [
         .target(
